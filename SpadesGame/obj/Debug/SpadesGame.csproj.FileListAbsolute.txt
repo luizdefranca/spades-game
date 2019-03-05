@@ -1,0 +1,10 @@
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\bin\Debug\SpadesGame.exe.config
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\bin\Debug\SpadesGame.exe
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\bin\Debug\SpadesGame.pdb
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csprojAssemblyReference.cache
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.Form1.resources
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.Properties.Resources.resources
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.GenerateResource.cache
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.CoreCompileInputs.cache
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.exe
+C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.pdb
