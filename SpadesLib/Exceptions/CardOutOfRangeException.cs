@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace SpadesLib.Exceptions
 {
-    public class CardOutOfRangeException :Exception
+    [Serializable]
+    public class CardOutOfRangeException :Exception, ISerializable
     {
         private Cards deskContents;
 
@@ -12,6 +14,7 @@ namespace SpadesLib.Exceptions
 
         }
 
+        
         public CardOutOfRangeException(Cards sourceDeskContents) : base("There are only 52 cards in the desk.")
         {
             deskContents = sourceDeskContents;

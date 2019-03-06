@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\bin\Debug\SpadesLib.dll
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\bin\Debug\SpadesLib.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\obj\Debug\SpadesLib.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\obj\Debug\SpadesLib.dll
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\obj\Debug\SpadesLib.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesLib\obj\Debug\SpadesLib.csprojAssemblyReference.cache

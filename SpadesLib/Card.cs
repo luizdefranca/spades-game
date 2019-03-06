@@ -13,15 +13,16 @@ namespace SpadesLib
       
         private Card()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public Card(Suit suit, Rank rank)
         {
-            throw new System.NotImplementedException();
+            this.rank = rank;
+            this.suit = suit;
         }
 
-        public override string ToString() => $"{rank}_of_{suit}";
+        public override string ToString() => $"{rank.ToString()}_of_{suit.ToString()}";
 
 
         public object Clone() => MemberwiseClone();
@@ -56,15 +57,20 @@ namespace SpadesLib
             return base.GetHashCode();
         }
 
-        public int CompareTo(Card secondCard)
+        /*
+         * TO-DO
+         */
+        public int CompareTo(Object obj)
         {
-            int suitFirstCard, suitSecondCard;
+
+            Card secondCard = (Card) obj;
+            Suit suitFirstCard, suitSecondCard;
                 
             // Set a suit order for the first
-            suitFirstCard = (int) this.suit;
+            suitFirstCard =  this.suit;
 
             // set a suit order for the second
-            suitSecondCard = (int) secondCard.suit;
+            suitSecondCard = secondCard.suit;
 
             if (this.suit.Equals(secondCard.suit))
             {
@@ -73,10 +79,22 @@ namespace SpadesLib
                 else
                     return 1;
             }
-            if (suitFirstCard < suitSecondCard)
-                return -1;
             else
-                return 1;
+            {
+                if (this.suit.Equals(Suit.spades))
+                {
+                    return 1;
+                } 
+                if (secondCard.suit.Equals(Suit.spades))
+                {
+                    return -1;
+                }
+                if (suitFirstCard < suitSecondCard)
+                    return -1;
+                else
+                    return 1;
+            }
+            
 
         }
     }

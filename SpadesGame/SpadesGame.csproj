@@ -160,5 +160,11 @@
     <Content Include="images\queen_of_hearts.png" />
     <Content Include="images\queen_of_spades.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpadesLib\SpadesLib.csproj">
+      <Project>{f56c13dc-3426-41b4-966f-9f00a2e24b8e}</Project>
+      <Name>SpadesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,16 @@ C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.Gen
 C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.CoreCompileInputs.cache
 C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.exe
 C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesGame.exe.config
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesGame.exe
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesGame.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.TableForm.resources
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.Properties.Resources.resources
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.GenerateResource.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.exe
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesLib.dll
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesLib.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csprojAssemblyReference.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.CopyComplete

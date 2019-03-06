@@ -1,0 +1,10 @@
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\bin\Debug\SpadesConsole.exe.config
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\bin\Debug\SpadesConsole.exe
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\bin\Debug\SpadesConsole.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\bin\Debug\SpadesLib.dll
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\bin\Debug\SpadesLib.pdb
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\obj\Debug\SpadesConsole.csprojAssemblyReference.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\obj\Debug\SpadesConsole.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\obj\Debug\SpadesConsole.csproj.CopyComplete
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\obj\Debug\SpadesConsole.exe
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesConsole\obj\Debug\SpadesConsole.pdb
