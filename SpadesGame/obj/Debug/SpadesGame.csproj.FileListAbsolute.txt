@@ -21,3 +21,4 @@ C:\Users\luiz\source\repos\SpadesGame\SpadesGame\obj\Debug\SpadesGame.pdb
 \\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\bin\Debug\SpadesLib.pdb
 \\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csprojAssemblyReference.cache
 \\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.csproj.CopyComplete
+\\Mac\Home\Documents\DotNetProjects\SpadesGame\SpadesGame\obj\Debug\SpadesGame.UserNameForm.resources

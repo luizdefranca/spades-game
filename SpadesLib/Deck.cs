@@ -15,7 +15,7 @@ namespace SpadesLib
         public Deck()
         {
            cards = new Cards() ;
-           for (int suitVal = 0; suitVal < 4; suitVal++)
+           for (int suitVal = 1; suitVal <= 4; suitVal++)
            {
                for (int rankVal = 1; rankVal < 14; rankVal++)
                {
