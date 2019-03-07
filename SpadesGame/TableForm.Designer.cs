@@ -44,7 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblPlayerSouth = new System.Windows.Forms.Label();
             this.imgWestPlayer = new System.Windows.Forms.PictureBox();
             this.imgNorthPlayer = new System.Windows.Forms.PictureBox();
             this.imgEastPlayer = new System.Windows.Forms.PictureBox();
@@ -54,7 +54,7 @@
             this.btnPlay = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblBid = new System.Windows.Forms.Label();
-            this.lblMessage = new System.Windows.Forms.Label();
+            this.lblEnterPlayerName = new System.Windows.Forms.Label();
             this.lblBidWest = new System.Windows.Forms.Label();
             this.lblTakenNorth = new System.Windows.Forms.Label();
             this.lblTakeSouth = new System.Windows.Forms.Label();
@@ -86,6 +86,7 @@
             // 
             // imgSouthPlayer1
             // 
+            this.imgSouthPlayer1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.imgSouthPlayer1.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer1.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer1.Location = new System.Drawing.Point(130, 386);
@@ -94,9 +95,11 @@
             this.imgSouthPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgSouthPlayer1.TabIndex = 4;
             this.imgSouthPlayer1.TabStop = false;
+            this.imgSouthPlayer1.UseWaitCursor = true;
             // 
             // imgSouthPlayer2
             // 
+            this.imgSouthPlayer2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer2.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer2.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer2.Location = new System.Drawing.Point(198, 386);
@@ -108,6 +111,7 @@
             // 
             // imgSouthPlayer3
             // 
+            this.imgSouthPlayer3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer3.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer3.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer3.Location = new System.Drawing.Point(266, 386);
@@ -119,6 +123,7 @@
             // 
             // imgSouthPlayer4
             // 
+            this.imgSouthPlayer4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer4.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer4.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer4.Location = new System.Drawing.Point(332, 386);
@@ -130,6 +135,7 @@
             // 
             // imgSouthPlayer5
             // 
+            this.imgSouthPlayer5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer5.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer5.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer5.Location = new System.Drawing.Point(399, 386);
@@ -141,6 +147,7 @@
             // 
             // imgSouthPlayer6
             // 
+            this.imgSouthPlayer6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer6.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer6.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer6.Location = new System.Drawing.Point(466, 386);
@@ -152,6 +159,7 @@
             // 
             // imgSouthPlayer7
             // 
+            this.imgSouthPlayer7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer7.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer7.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer7.Location = new System.Drawing.Point(533, 386);
@@ -163,6 +171,7 @@
             // 
             // imgSouthPlayer8
             // 
+            this.imgSouthPlayer8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer8.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer8.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer8.Location = new System.Drawing.Point(600, 386);
@@ -174,6 +183,7 @@
             // 
             // imgSouthPlayer9
             // 
+            this.imgSouthPlayer9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer9.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer9.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer9.Location = new System.Drawing.Point(667, 386);
@@ -185,6 +195,7 @@
             // 
             // imgSouthPlayer10
             // 
+            this.imgSouthPlayer10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer10.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer10.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer10.Location = new System.Drawing.Point(734, 386);
@@ -196,6 +207,7 @@
             // 
             // imgSouthPlayer11
             // 
+            this.imgSouthPlayer11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer11.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer11.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer11.Location = new System.Drawing.Point(801, 386);
@@ -207,6 +219,7 @@
             // 
             // imgSouthPlayer12
             // 
+            this.imgSouthPlayer12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer12.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer12.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer12.Location = new System.Drawing.Point(868, 386);
@@ -218,6 +231,7 @@
             // 
             // imgSouthPlayer13
             // 
+            this.imgSouthPlayer13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgSouthPlayer13.Image = global::SpadesGame.Properties.Resources.CardBack1;
             this.imgSouthPlayer13.InitialImage = global::SpadesGame.Properties.Resources.CardBack7;
             this.imgSouthPlayer13.Location = new System.Drawing.Point(934, 386);
@@ -257,15 +271,15 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Player East";
             // 
-            // label4
+            // lblPlayerSouth
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(472, 507);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 17);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Player South";
+            this.lblPlayerSouth.AutoSize = true;
+            this.lblPlayerSouth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerSouth.Location = new System.Drawing.Point(472, 507);
+            this.lblPlayerSouth.Name = "lblPlayerSouth";
+            this.lblPlayerSouth.Size = new System.Drawing.Size(101, 17);
+            this.lblPlayerSouth.TabIndex = 5;
+            this.lblPlayerSouth.Text = "Player South";
             // 
             // imgWestPlayer
             // 
@@ -310,7 +324,7 @@
             this.panel1.Controls.Add(this.btnPlay);
             this.panel1.Controls.Add(this.txtName);
             this.panel1.Controls.Add(this.lblBid);
-            this.panel1.Controls.Add(this.lblMessage);
+            this.panel1.Controls.Add(this.lblEnterPlayerName);
             this.panel1.Location = new System.Drawing.Point(1142, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
@@ -366,16 +380,16 @@
             this.lblBid.TabIndex = 0;
             this.lblBid.Text = "Choose your bid";
             // 
-            // lblMessage
+            // lblEnterPlayerName
             // 
-            this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblMessage.Location = new System.Drawing.Point(20, 32);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(130, 17);
-            this.lblMessage.TabIndex = 0;
-            this.lblMessage.Text = "Type your name:";
+            this.lblEnterPlayerName.AutoSize = true;
+            this.lblEnterPlayerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterPlayerName.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblEnterPlayerName.Location = new System.Drawing.Point(20, 32);
+            this.lblEnterPlayerName.Name = "lblEnterPlayerName";
+            this.lblEnterPlayerName.Size = new System.Drawing.Size(130, 17);
+            this.lblEnterPlayerName.TabIndex = 0;
+            this.lblEnterPlayerName.Text = "Type your name:";
             // 
             // lblBidWest
             // 
@@ -473,7 +487,7 @@
             this.Controls.Add(this.lblTakenWest);
             this.Controls.Add(this.lblBidWest);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblPlayerSouth);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -541,13 +555,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblPlayerSouth;
         private System.Windows.Forms.PictureBox imgWestPlayer;
         private System.Windows.Forms.PictureBox imgNorthPlayer;
         private System.Windows.Forms.PictureBox imgEastPlayer;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Label lblEnterPlayerName;
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.NumericUpDown upDownBid;
         private System.Windows.Forms.Label lblBid;

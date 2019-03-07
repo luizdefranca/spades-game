@@ -143,6 +143,22 @@ namespace SpadesGame
             DistributeCards();
             FillCards();
             ShowCards();
+            lblPlayerSouth.Text = "Player " + playerName;
+            //btnPlay.Visible = false;
+            lblEnterPlayerName.Visible = false;
+            txtName.Visible = false;
         }
+
+        //todo: implement a method to change the cursor when the mouse is hover
+        private void ChangeCursorToHand(object sender, MouseEventArgs e)
+        {
+            //PictureBox picture = (PictureBox) sender;
+            //picture.Cursor = ImageArea(picture).Contains(e.Location) ?
+            //    Cursors.Hand : Cursors.Default;
+
+            imgSouthPlayer1.Cursor = Cursors.Hand;
+        }
+
+        
     }
 }
