@@ -3,35 +3,65 @@
   <Class Name="SpadesLib.Card">
     <Position X="6" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAAAAAAQAAAAQEgAAAAAAAAAAAAIAAAAAAAAAAABA=</HashCode>
       <FileName>Card.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="rank" />
       <Field Name="suit" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="SpadesLib.Deck">
     <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAEAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAEBA=</HashCode>
       <FileName>Deck.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
+    <ShowAsCollectionAssociation>
       <Field Name="cards" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpadesLib.Hand">
+    <Position X="13.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAGAAAAAAAgAAkAAAABAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Hand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="hand" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SpadesLib.Player">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAEGAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myHand" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="SpadesLib.Cards">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBA=</HashCode>
+      <FileName>Cards.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Enum Name="SpadesLib.Suit">
     <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAACA=</HashCode>
+      <HashCode>AAAAAQAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
       <FileName>Suit.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="SpadesLib.Rank">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
+      <HashCode>CAAAQYAAAAAQAAQAoIAAAAAAAAAACAAABQQAAAAAAAA=</HashCode>
       <FileName>Rank.cs</FileName>
     </TypeIdentifier>
   </Enum>

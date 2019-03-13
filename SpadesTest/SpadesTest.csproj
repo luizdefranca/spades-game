@@ -49,10 +49,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardsTests.cs" />
-    <Compile Include="CardTest.cs" />
+    <Compile Include="CardTests.cs" />
+    <Compile Include="DeckTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RankTest.cs" />
+    <Compile Include="RankTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

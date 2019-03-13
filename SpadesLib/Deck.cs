@@ -8,9 +8,9 @@ namespace SpadesLib
 {
     public class Deck : ICloneable 
     {
-        private Cards cards;
+        protected Cards cards;
 
-        private Deck(Cards newCards) => cards = newCards;
+        public Deck(Cards newCards) => cards = newCards;
 
         public Deck()
         {
